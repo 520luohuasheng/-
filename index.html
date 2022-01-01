@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
 		<title>首页</title>
 		<style type="text/css">
 			* {
@@ -12,13 +15,12 @@
 			}
 
 			body {
-				background-color: #000000;
-				width: auto;
+				background-color: white;
+				width: 414px;
 			}
 
 			.bodys {
-				width: 100%;
-				height: auto;
+				width: 414px;
 				border: 1px solid white;
 			}
 
@@ -33,68 +35,69 @@
 
 			/* 左边 */
 			.borders .left {
-				width: 180px;
-				height: 200px;
+				width: 124.2px;
+				height: 12.5rem;
 				background-color: #0c97da;
-				border-right: 2px white dashed;
+				border-right: 0.125rem white dashed;
 				/* flex: 1; */
 			}
 
 			.borders .zp {
-				width: 80px;
-				line-height: 80px;
+				width: 5rem;
+				line-height: 5rem;
 				border-radius: 50%;
 				background-color: white;
 				text-align: center;
-				margin-left: 45px;
-				margin-top: 30px;
+				margin-left: 2.8125rem;
+				margin-top: 1.875rem;
 			}
 			
 			.borders .zp span {
-				font-size: 23px;
-				letter-spacing: 4px;
+				font-size: 1.4375rem;
+				letter-spacing: 0.25rem;
 				color: #2c8cbc;
 			}
 
 			/* 右边 */
 			.borders .right {
-				width: 368px;
-				height: 200px;
+				width: 289.8px;
+				height: 12.5rem;
 				background-color: #0c97da;
 				box-sizing: border-box;
 			}
 
-			.borders h3 {
+			.borders .h3 {
 				text-indent: 1em;
+				font-size: 1.125rem;
 				color: white;
 				font-weight: inherit;
-				margin-bottom: 13px;
-				letter-spacing: 3px;
+				margin-bottom: 0.8125rem;
+				letter-spacing: 0.1875rem;
 			}
 
 			.borders p {
 				text-indent: 1.5em;
 				color: white;
-				font-size: 14px;
-				line-height: 28px;
+				font-size: 0.875rem;
+				line-height: 1.75rem;
 			}
 
 			.borders img {
-				width: 16px;
-				height: 21px;
+				width: 1rem;
+				height: 1.3125rem;
 			}
 			
 			.borders .right .i {
 				float: right;
-				margin-right: 15px;
-				margin-top: -20px;
+				margin-right: 0.9375rem;
+				margin-top: -1.25rem;
 			}
 
 			/* 上部分 End */
 			/* 下部分 Start */
 			.borderss {
-				width: 550px;
-				height: 718px;
+				width: 414px;
+				height: 609px;
 				margin: 0px auto;
 				background-color: white;
 				color: #000000;
@@ -221,12 +224,11 @@
 				box-sizing: border-box;
 				float: right;
 				margin-right: 20px;
-				margin-top: 310px;
+				margin-top: 190px;
 			}
 
 			.borderss .e p {
 				color: white;
-				line-height: 30px;
 				font-size: 16px;
 				font-family: '微软雅黑';
 			}
@@ -242,7 +244,7 @@
 				</div>
 				<div class="right">
 					<br>
-					<h3>疫情期间学生个人外出申请</h3>
+					<p class="h3">疫情期间学生个人外出申请</p>
 					<div class="i">
 						<img src="img/5.png">
 					</div>
