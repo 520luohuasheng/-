@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+				outline: none;
+			}
+			
+			body {
+				background-color: #000000;
+			}
+			
+			.bodys {
+				width: 550px;
+				margin: 0px auto;
+			}
+			
+			/* 上部分 Start */
+			.borders {
+				width: 550px;
+				float: left;
+				position: relative;
+			}
+			
+			/* 左边 */
+			.borders .left {
+				width: 180px;
+				height: 200px;
+				background-color: #0c97da;
+				border-right: 2px white dashed;
+				float: left;
+				position: relative;
+			}
+			
+			.borders .zp {
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+				background-color: white;
+				text-align: center;
+				font-size: 23px;
+				letter-spacing: 4px;
+				color: #2c8cbc;
+				line-height: 80px;
+				position: absolute;
+				top: 20px;
+				left: 35px;
+			}
+			
+			/* 右边 */
+			.borders .right {
+				width: 368px;
+				height: 200px;
+				background-color: #0c97da;
+				position: absolute;
+				right: 0px;
+			}
+			
+			.borders h3 {
+				text-indent: 1em;
+				color: white;
+				font-weight: inherit;
+				margin-bottom: 13px;
+				letter-spacing: 3px;
+			}
+			
+			.borders p {
+				text-indent: 1.5em;
+				color: white;
+				font-size: 14px;
+				line-height: 28px;
+			}
+			
+			.borders img {
+				width: 16px;
+				height: 21px;
+				position: absolute;
+				right: 15px;
+				top: 38px;
+			}
+			
+			/* 上部分 End */
+			/* 下部分 Start */
+			.borderss {
+				width: 550px;
+				height: 737px;
+				float: left;
+				background-color: white;
+				color: #000000;
+				position: relative;
+			}
+			
+			.borderss .a {
+				width: 550px;
+				margin-top: 30px;
+			}
+			
+			.borderss .a img {
+				width: 20px;
+				height: 20px;
+				margin-top: 7px;
+				margin-left: 20px;
+				float: left;
+			}
+			
+			.borderss .a p {
+				color: #2b97d5;
+				text-indent: 18px;
+				font-size: 20px;
+				letter-spacing: 1px;
+				margin-bottom: 20px;
+			}
+			
+			.borderss .a span {
+				color: #2b97d5;
+				margin-left: 55.5px;
+				letter-spacing: 3px;
+				font-size: 14px;
+			}
+			
+			.borderss .b {
+				width: 550px;
+				margin-top: 35px;
+			}
+			
+			.borderss .b img {
+				width: 15px;
+				height: 15px;
+				margin-left: 19.8px;
+				float: left;
+				margin-top: 7px;
+			}
+			
+			.borderss .b p {
+				color: #cccccc;
+				text-indent: 18px;
+				font-size: 20px;
+				letter-spacing: 1px;
+				margin-bottom: 20px;
+			}
+			
+			.borderss .b span {
+				color: #cccccc;
+				margin-left: 55.5px;
+				letter-spacing: 3px;
+				line-height: 20px;
+				font-size: 14px;
+			}
+			
+			.borderss .c {
+				width: 550px;
+				margin-top: 35px;
+			}
+			
+			.borderss .c img {
+				width: 15px;
+				height: 15px;
+				margin-left: 19.8px;
+				float: left;
+				margin-top: 7px;
+			}
+			
+			.borderss .c p {
+				color: #cccccc;
+				text-indent: 18px;
+				font-size: 20px;
+				letter-spacing: 1px;
+				margin-bottom: 20px;
+			}
+			
+			.borderss .c span {
+				color: #cccccc;
+				margin-left: 55.5px;
+				letter-spacing: 3px;
+				line-height: 20px;
+				font-size: 14px;
+			}
+			
+			.borderss .d {
+				width: 125px;
+				position: absolute;
+				top: 30px;
+				right: 25px;
+			}
+			
+			.borderss .d .fangkuang {
+				background-color: #0c97da;
+				border-radius: 5.5px;
+				text-align: center;
+				color: white;
+				font-weight: inherit;
+				line-height: 23px;
+				font-size: 16px;
+				letter-spacing: 2px;
+			}
+			
+			.borderss .d p {
+				text-align: center;
+				color: #2b97d5;
+				font-size: 13px;
+				letter-spacing: 2px;
+			}
+			
+			.borderss .e {
+				width: 60px;
+				height: 60px;
+				background-color: #f8b62c;
+				border-radius: 50%;
+				position: absolute;
+				bottom: 50px;
+				right: 15px;
+			}
+			
+			.borderss .e p {
+				text-align: center;
+				margin-left: 3px;
+				color: white;
+				line-height: 19px;
+				letter-spacing: 3px;
+				font-size: 19px;
+			}
+			
+			/* 下部分 End */
+			
+		</style>
+	</head>
+	<body>
+		<div class="bodys">
+			<div class="borders">
+				<div class="left">
+					<div class="zp">在批</div>
+				</div>
+				<div class="right">
+					<br>
+					<h3>疫情期间学生个人外出申请</h3>
+					<p contenteditable="true" id="box">申请时间：2021-XX-XX&nbsp;&nbsp;XX:XX</p>
+					<p contenteditable="true">申请人：XXX</p>
+					<p contenteditable="true">当前节点：申请人确认</p>
+					<p contenteditable="true">处理人：XXX</p>
+					<img src="img/5.png" class="i">
+				</div>
+			</div>
+			<div class="borderss">
+				<div class="a">
+					<img src="img/圆1.png">
+					<p contenteditable="true">学生申请&nbsp;/&nbsp;XXX</p>
+					<span contenteditable="true">已经流转到XXX处，等待审批</span>
+				</div>
+				<div class="b">
+					<img src="img/圆2.png">
+					<p contenteditable="true">学生申请&nbsp;/&nbsp;XXX</p>
+					<span>同意!</span>
+					<br>
+					<span contenteditable="true" id="a">XXXX-XX-XX&nbsp;XX:XX</span>
+				</div>
+				<div class="c">
+					<img src="img/圆2.png">
+					<p>辅导员审批&nbsp;/&nbsp唐建华</p>
+					<span>同意!</span>
+					<br>
+					<span contenteditable="true" id="b">XXXX-XX-XX&nbsp;XX:XX</span>
+				</div>
+				<div class="d">
+					<div class="fangkuang">催办</div>
+					<p>已耗时</p>
+				</div>
+				<div class="e">
+					<p style="margin-top: 11px;">整体</p>
+					<p>流程</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var i = document.querySelector('.i')
+			i.onclick = function() {
+				// window.close('index.html')
+				// window.open("请假页面.html")
+				window.location.replace("list.html")
+			}
+			
+			// box.innerHTML=getdate()	//2.注册事件
+			function getdate() { //3.编写事件的程序代码
+				var date = new Date(); // 系统时间
+				var year = date.getFullYear(); // 获取当前系统时间的年份
+				var month = date.getMonth() + 1; // 获取当前系统时间的月份
+				var dates = date.getDate(); // 获取当前系统时间的天数
+				var hours = date.getHours(); // 获取当前系统的时针
+				var hours2 = date.getHours() + 1; // 获取当前系统的时针
+				var minutes = date.getMinutes(); // 获取当前系统时间的分针
+				var box = '申请时间：' + year + '-' + month + '-' + dates + '  ' + hours + ':' + minutes
+				var a = year + '-' + month + '-' + dates + ' ' + hours + ':' + 11
+				var b = year + '-' + month + '-' + dates + ' ' + hours2 + ':' + 29
+				document.getElementById('box').innerHTML = box		//1.获取元素
+				document.getElementById('a').innerHTML = a		//1.获取元素
+				document.getElementById('b').innerHTML = b		//1.获取元素
+			}
+			setInterval(getdate, 1000)
+		</script>
+	</body>
+</html>
