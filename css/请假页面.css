@@ -1,0 +1,130 @@
+/* footer start */
+footer {
+	margin-top: 30px;
+	width: 1080px;
+	font-size: 16px;
+}
+
+footer span {
+	color: #587fa0;
+}
+
+footer p {
+	color: #0b95ed;
+}
+
+/* div背景Start */
+footer .left {
+	width: 120px;
+	height: 50px;
+	font-size: 14px;
+	text-align: right;
+	background-color: #f2f2f2;
+	line-height: 50px;
+	letter-spacing: 3px;
+	float: left;
+	border: #e7e7e7 solid 1px;
+}
+
+footer .right {
+	width: 1080px;
+	height: 50px;
+	color: black;
+	text-align: left;
+	line-height: 50px;
+	background-color: #FFFFFF;
+	border: #e7e7e7 solid 1px;
+	text-indent: 1em;
+	display: block;
+}
+
+footer .leftone {
+	width: 120px;
+	height: 150px;
+	font-size: 14px;
+	text-align: right;
+	background-color: #f2f2f2;
+	line-height: 150px;
+	letter-spacing: 3px;
+	float: left;
+	border: #e7e7e7 solid 1px;
+}
+
+footer .rightone {
+	width: 1080px;
+	height: 150px;
+	color: black;
+	text-align: left;
+	line-height: 50px;
+	background-color: #FFFFFF;
+	border: #e7e7e7 solid 1px;
+	text-indent: 1em;
+	display: block;
+}
+
+footer .leftthree {
+	width: 120px;
+	height: 65px;
+	font-size: 14px;
+	text-align: right center;
+	background-color: #f2f2f2;
+	letter-spacing: 3px;
+	float: left;
+	border: #e7e7e7 solid 1px;
+}
+
+footer .rightthree {
+	width: 1080px;
+	height: 65px;
+	color: black;
+	text-align: left;
+	background-color: #FFFFFF;
+	border: #e7e7e7 solid 1px;
+	text-indent: 1em;
+	display: block;
+}
+
+footer .lefttwo {
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	letter-spacing: 3px;
+	float: left;
+	border: #e7e7e7 solid 1px;
+}
+
+footer .righttwo {
+	width: 1080px;
+	height: 40px;
+	color: black;
+	text-align: left;
+	background-color: #FFFFFF;
+	border: #e7e7e7 solid 1px;
+	text-indent: 1em;
+	display: block;
+}
+
+/* div背景End */
+/* 下拉菜单Start */
+#border {
+	/* 文本框 */
+	padding: 0;
+	/* margin-top: -13.7px; */
+	/* margin-left: 16px; */
+	width: 320px;
+	height: 100px;
+	border: #cecece solid 1px;
+}
+
+.ect {
+	/* 菜单 */
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	background-color: white;
+}
+
+/* 下拉菜单End */
+/* footer end */

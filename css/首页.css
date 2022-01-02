@@ -1,0 +1,221 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+body {
+	background-color: #000000;
+}
+
+.bodys {
+	width: 550px;
+	margin: 0px auto;
+}
+
+/* 上部分 Start */
+.borders {
+	width: 550px;
+	float: left;
+	position: relative;
+}
+
+/* 左边 */
+.borders .left {
+	width: 180px;
+	height: 200px;
+	background-color: #0c97da;
+	border-right: 2px white dashed;
+	float: left;
+	position: relative;
+}
+
+.borders .zp {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: white;
+	text-align: center;
+	font-size: 23px;
+	letter-spacing: 4px;
+	color: #2c8cbc;
+	line-height: 80px;
+	position: absolute;
+	top: 20px;
+	left: 35px;
+}
+
+/* 右边 */
+.borders .right {
+	width: 368px;
+	height: 200px;
+	background-color: #0c97da;
+	position: absolute;
+	right: 0px;
+}
+
+.borders h3 {
+	text-indent: 1em;
+	color: white;
+	font-weight: inherit;
+	margin-bottom: 13px;
+	letter-spacing: 3px;
+}
+
+.borders p {
+	text-indent: 1.5em;
+	color: white;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.borders img {
+	width: 16px;
+	height: 21px;
+	position: absolute;
+	right: 15px;
+	top: 38px;
+}
+
+/* 上部分 End */
+/* 下部分 Start */
+.borderss {
+	width: 550px;
+	height: 737px;
+	float: left;
+	background-color: white;
+	color: #000000;
+	position: relative;
+}
+
+.borderss .a {
+	width: 550px;
+	margin-top: 30px;
+}
+
+.borderss .a img {
+	width: 20px;
+	height: 20px;
+	margin-top: 7px;
+	margin-left: 20px;
+	float: left;
+}
+
+.borderss .a p {
+	color: #2b97d5;
+	text-indent: 18px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.borderss .a span {
+	color: #2b97d5;
+	margin-left: 55.5px;
+	letter-spacing: 3px;
+	font-size: 14px;
+}
+
+.borderss .b {
+	width: 550px;
+	margin-top: 35px;
+}
+
+.borderss .b img {
+	width: 15px;
+	height: 15px;
+	margin-left: 19.8px;
+	float: left;
+	margin-top: 7px;
+}
+
+.borderss .b p {
+	color: #cccccc;
+	text-indent: 18px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.borderss .b span {
+	color: #cccccc;
+	margin-left: 55.5px;
+	letter-spacing: 3px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.borderss .c {
+	width: 550px;
+	margin-top: 35px;
+}
+
+.borderss .c img {
+	width: 15px;
+	height: 15px;
+	margin-left: 19.8px;
+	float: left;
+	margin-top: 7px;
+}
+
+.borderss .c p {
+	color: #cccccc;
+	text-indent: 18px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.borderss .c span {
+	color: #cccccc;
+	margin-left: 55.5px;
+	letter-spacing: 3px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.borderss .d {
+	width: 125px;
+	position: absolute;
+	top: 30px;
+	right: 25px;
+}
+
+.borderss .d .fangkuang {
+	background-color: #0c97da;
+	border-radius: 5.5px;
+	text-align: center;
+	color: white;
+	font-weight: inherit;
+	line-height: 23px;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.borderss .d p {
+	text-align: center;
+	color: #2b97d5;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+
+.borderss .e {
+	width: 60px;
+	height: 60px;
+	background-color: #f8b62c;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 50px;
+	right: 15px;
+}
+
+.borderss .e p {
+	text-align: center;
+	margin-left: 3px;
+	color: white;
+	line-height: 19px;
+	letter-spacing: 3px;
+	font-size: 19px;
+}
+
+/* 下部分 End */
